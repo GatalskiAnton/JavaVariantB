@@ -8,4 +8,20 @@ abstract public class Sweetness {
         this.weight = weight;
         this.percentageOfSugar = percentageOfSugar;
     }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public double getPercentageOfSugar() {
+        return percentageOfSugar;
+    }
+
+    public void setPercentageOfSugar(double percentageOfSugar) {
+        this.percentageOfSugar = percentageOfSugar;
+    }
 }
