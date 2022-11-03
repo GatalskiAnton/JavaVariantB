@@ -1,4 +1,6 @@
-import java.awt.*;
+package Sweetnnes.Candy;
+
+import Sweetnnes.Sweetness;
 
 public class Candy extends Sweetness {
     private CandyWrapper wrapper;
@@ -11,14 +13,3 @@ public class Candy extends Sweetness {
     }
 }
 
-enum CandyFilling
-{
-    CHOCOLATE,
-    CARAMEL,
-    BERRIES
-}
-
-enum CandyWrapper
-{
-
-}

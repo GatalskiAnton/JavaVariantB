@@ -1,4 +1,8 @@
-public class Cookie extends Bake {
+package Sweetnnes.Cookie;
+
+import Sweetnnes.Sweetness;
+
+public class Cookie extends Sweetness {
     private CookieShape shape;
     private CookieFilling filling;
 
@@ -7,17 +11,5 @@ public class Cookie extends Bake {
         this.shape = shape;
         this.filling = filling;
     }
-
 }
 
-enum CookieShape {
-    ROUND,
-    SQUARE,
-    TRIANGULAR
-}
-
-enum CookieFilling {
-    CHOCOLATE,
-    CARAMEL,
-    BERRIES
-}

@@ -1,3 +1,5 @@
+package Sweetnnes;
+
 abstract public class Sweetness {
     private double weight;
     private double percentageOfSugar;
